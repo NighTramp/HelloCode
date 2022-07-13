@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\bin\Debug\net6.0\Console_Calculator.exe
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\bin\Debug\net6.0\Console_Calculator.deps.json
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\bin\Debug\net6.0\Console_Calculator.runtimeconfig.json
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\bin\Debug\net6.0\Console_Calculator.dll
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\bin\Debug\net6.0\Console_Calculator.pdb
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\obj\Debug\net6.0\Console_Calculator.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\obj\Debug\net6.0\Console_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\obj\Debug\net6.0\Console_Calculator.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\obj\Debug\net6.0\Console_Calculator.AssemblyInfo.cs
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\obj\Debug\net6.0\Console_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\obj\Debug\net6.0\Console_Calculator.dll
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\obj\Debug\net6.0\refint\Console_Calculator.dll
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\obj\Debug\net6.0\Console_Calculator.pdb
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\obj\Debug\net6.0\Console_Calculator.genruntimeconfig.cache
+C:\Users\User\Desktop\Working\HelloCode\Console_Calculator\obj\Debug\net6.0\ref\Console_Calculator.dll
