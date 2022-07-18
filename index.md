@@ -1,37 +1,99 @@
-## Welcome to GitHub Pages
+# **Инструкция по работе с GIT**
 
-You can use the [editor on GitHub](https://github.com/NighTramp/HelloCode/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Данная иструкция составлена для помощи себе в дальнейшей работе с системой контроля версий.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Что такое GIT
 
-### Markdown
+![Эмблема Git](git.JPG)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Система контроля версий Git была создана *Линусом Торвальдсом* для работы при создании ядра ОС Linux. На данный момент это самая популярная система контроля версий в мире.
 
-```markdown
-Syntax highlighted code block
+## Создание репозитория
 
-# Header 1
-## Header 2
-### Header 3
+Для создания репозитория (говорят "инициализации") используется команда:
 
-- Bulleted
-- List
+    git init
 
-1. Numbered
-2. List
+## Добавление коммитов
 
-**Bold** and _Italic_ and `Code` text
+Для отслеживания версионности необходимо вначале добавить измененный файл (не забыть его сохранить) к отслеживанию, а затем зафиксировать изменения.
 
-[Link](url) and ![Image](src)
-```
+### Добавление версионности
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Чтобы добавить файл к отслеживанию версионнности используется команда:
 
-### Jekyll Themes
+    git add <имя файла>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NighTramp/HelloCode/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+где <имя файла> - полное имя добавляемого файла с расширением.
 
-### Support or Contact
+### Создание коммита
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Чтобы зафиксировать изменения используется команда:
+
+    git commit -m "комментарий"
+
+где "комментарий" - краткое описание изменений в этом коммите. Кавычки обязательны!
+
+### Просмотр состояния
+
+Чтобы просмотреть текущее состояние репозитория используется команда:
+
+    git status
+
+## Команды для просмотра журнала изменений
+
+Чтобы просмотреть историю изменений используется команда:
+
+    git log
+
+Возможно использование параметра для просмотра истории в сокращенном виде:
+
+    git log --oneline
+
+## Команды для работы с коммитами
+
+Для переключения между разными "сохранениями" используется команда:
+
+    git checkout <хэш коммита>
+
+где <хэш коммита> - специальный набор символов однозначно определяющий каждый коммит.
+
+## Просмотр различий
+
+Для просмотра различий между версиями используется команда:
+
+    git diff
+
+В таком виде будут показаны различия между текущим (незакоммиченным) состоянием репозитория и последним актуальным коммитом.
+
+Либо можно использовать команду:
+
+    git diff <хэш1> <хэш2>
+
+Где <хэш1> <хэш2> - хэши сравниваемых коммитов.
+
+## Создание веток
+
+Для создания новой ветки используется команда:
+
+    git branch <имя ветки>
+
+## Переход между ветками
+
+Для перехода на другую ветку исползуется команда:
+
+    git checkout <имя ветки>
+
+## Слияние веток
+
+Для того, чтобы влить одну ветку в другую нужно перейти в ту ветку КУДА будем производить слияние и ввести команду:
+
+    git merge <имя ветки из которой добавляем изменения>
+
+## Удаление веток
+
+Для удаления ветки используется команда:
+    
+    git branch -d branches
+
+### for pull\request
